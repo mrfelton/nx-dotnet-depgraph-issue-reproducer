@@ -1,0 +1,19 @@
+{
+  "name": "nx-dotnet-depgraph-issue-reproducer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "nx g @nx-dotnet/core:restore"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nx-dotnet/core": "^2.4.5",
+    "@nx/js": "19.7.3",
+    "nx": "19.7.3"
+  },
+  "nx": {},
+  "dependencies": {}
+}
